@@ -37,3 +37,14 @@ print("length of the word: ",len(word))
 print("First letter of word: ",word[0])
 print("Last letter of word: ",word[7])
 print("Word sliced: ",word[0:4])
+print("\n")
+
+x = input("Enter any value:")
+y = input("Enter any value:")
+
+temp = x
+x = y
+y = temp
+
+print("value of x after swapping: ",x)
+print("value of y after swapping: ",y)
