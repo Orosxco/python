@@ -2,21 +2,21 @@ class student:
     grade = 10
     print("I am a student of grade", grade)
 
-ob = student()
+ob =student()
 print("\n")
 
-class fellow:
-    age = 14
-    name = "Affan"
+class robot:
+    age = 5
+    name = "vision"
 
     def introduction(self):
-        print("Hi i am a student")
+        print("Hi i am a robot")
 
     def details(self):
         print("My name is", self.name)
         print("My age is", self.age)
 
-j = fellow()
+j = robot()
 j.introduction()
 j.details()
 print("\n")
