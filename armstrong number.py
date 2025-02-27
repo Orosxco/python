@@ -12,4 +12,3 @@ if sum == num:
     print("The number is an armstrong number")
 else:
     print("The number is not an armstrong number")
-    
